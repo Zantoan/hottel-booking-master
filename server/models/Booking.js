@@ -19,6 +19,6 @@ const bookingSchema = new mongoose.Schema({
     isPaid:{type:Boolean, default:false},
 },{timestamps:true});
 
-const Booking = mongoose.model("Booking", roomSchema);
+const Booking = mongoose.model("Booking", bookingSchema);
 
 export default Booking;

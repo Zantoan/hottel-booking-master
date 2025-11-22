@@ -8,18 +8,18 @@ const ListRoom = () => {
 
   return (
     <div>
-      <Title align='left' font='outfit' title='Room Listing' subTitle='View, edit,
-      or manage all listed rooms. Keep the information up-to-date to provite the
-      best experience for users'/>
-      <p className='text-gray-500 mt-8'>All Rooms</p>
+      <Title align='left' font='outfit' title='Danh sách phòng' subTitle='Xem, chỉnh sửa hoặc quản lý
+      tất cả các phòng đã đăng Giữ thông tin luôn được cập nhật để mang đến trải nghiệm tốt nhất cho 
+      người dùng.'/>
+      <p className='text-gray-500 mt-8'>Tất cả phòng</p>
       <div className='w-full max-w-3xl text-left border border-gray-300 rounded-lg max-h-80 overflow-y-scroll mt-3'>
         <table className='w-ful'>
           <thead className='bg-gray-50'>
             <tr>
-              <th className='py-3 px-4 text-gray-800 font-medium'>Name</th>
-              <th className='py-3 px-4 text-gray-800 font-medium max-sm:hidden'>Facility</th>
-              <th className='py-3 px-4 text-gray-800 font-medium '>Price/ night</th>
-              <th className='py-3 px-4 text-gray-800 font-medium text-center'>Actions</th>
+              <th className='py-3 px-4 text-gray-800 font-medium'>Tên </th>
+              <th className='py-3 px-4 text-gray-800 font-medium max-sm:hidden'>Tiện Nghi</th>
+              <th className='py-3 px-4 text-gray-800 font-medium '>Giá/</th>
+              <th className='py-3 px-4 text-gray-800 font-medium text-center'>Hoạt động</th>
             </tr>
           </thead>
           <tbody>
